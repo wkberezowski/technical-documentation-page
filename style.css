@@ -10,7 +10,6 @@ html {
 
 #main-doc {
   display: flex;
-  justify-content: flex-start;
   height: 100vh;
 }
 
@@ -43,15 +42,16 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   flex: 4;
+  margin-left: 4rem;
 }
 
 .content section {
   max-height: 20vh;
 }
 
-#The_Classification_of_Kitties header {
+.content section header {
   font-size: 4rem;
   text-align: center;
 }
@@ -67,14 +67,13 @@ html {
   background: #f94144;
   border-radius: 5px;
   padding: 10px;
+  margin-bottom: 2rem;
 }
 
-#The_Classification_of_Kitties code {
+#The_Classification_of_Kitties .code-div {
   text-align: center;
-  font-size: 3rem;
-  margin-top: 5rem;
+  font-size: 2rem;
 }
-
 @media screen and (max-width: 1200px) {
   #main-doc {
     display: flex;

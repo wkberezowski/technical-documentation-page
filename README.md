@@ -1,1 +1,1 @@
-# technical-documentation-page
+# Technical Documentation Page created for freecodecamp challenge.
